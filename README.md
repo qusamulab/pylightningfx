@@ -4,10 +4,10 @@ Python client for the [bitFlyer Lightning API](https://lightning.bitflyer.com/do
 
 [![PyPI](https://img.shields.io/pypi/v/pylightningfx)](https://pypi.org/project/pylightningfx/)
 [![Python](https://img.shields.io/pypi/pyversions/pylightningfx)](https://pypi.org/project/pylightningfx/)
-[![CI](https://github.com/ykus4/pylightningfx/actions/workflows/ci.yml/badge.svg)](https://github.com/ykus4/pylightningfx/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/ykus4/pylightningfx)](LICENSE)
+[![CI](https://github.com/qusamulab/pylightningfx/actions/workflows/ci.yml/badge.svg)](https://github.com/qusamulab/pylightningfx/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/qusamulab/pylightningfx)](LICENSE)
 
-**[Documentation](https://ykus4.github.io/pylightningfx)** · [日本語](https://ykus4.github.io/pylightningfx/ja)
+**[Documentation](https://qusamulab.github.io/pylightningfx)** · [日本語](https://qusamulab.github.io/pylightningfx/ja)
 
 - Every HTTP endpoint, Public and Private, with Pydantic response models
 - `asyncio` support with an identical API surface
@@ -105,4 +105,4 @@ Orders are real money, so a few defaults are deliberately conservative:
 Errors arrive as `APIError` carrying bitFlyer's numeric `status` and
 `error_message`, not just an HTTP code.
 
-See the [documentation](https://ykus4.github.io/pylightningfx) for the full API reference.
+See the [documentation](https://qusamulab.github.io/pylightningfx) for the full API reference.
